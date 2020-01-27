@@ -16,31 +16,26 @@ print("""
       \033[0;35m ___|----\  \033[0;94m  if if if if
             \033[0;35m    \---\033[0;94mif if if if
       \033[0;33m  V 1.0.0 """,time1)
-for _ in range(100):
 
-    text=input("\033[0;32mEnter Text : ")
-    number1=float(input("Enter Number : "))
-    print("""\033[0;34m1.Write
-2.Writeline\033[0;32m""")
-    mode1=input("\033[0;32mEnter mode : ")
-    if (mode1=="1"): 
-        while (number1 >= 1):
-            print('\033[0;37m',text,end = " ")
-            number1-=1
-    elif (mode1=="2"):
-        while (number1 >= 1):
-            print(text)
-            number1-=1
-    else:
-        print("\033[0;31mErorr mode")
-    exit1=input('\033[0;35m\nDo you Exit [Y/n] : ')
-    if (exit1=="y"):
-        exit()
-    elif (exit1=="Y"):
-        exit()
-    elif (exit1=="N"):
-        print("OK")
-    elif (exit1=="n"):
-        print("OK")
-    else:
-        print('\033[0;31mErorr\033[0m')
+
+text=input("\033[0;32mEnter Text /> ")
+number1=int(input("Enter Number /> "))
+name1=input("\033[0;32mEnter Name for file /> ")
+f = open(name1+".txt","a")
+print("""\033[0;34m
+1.Write
+2.Writeline
+\033[0;32m""")
+mode1=input("\033[0;32mEnter mode : ")
+if (mode1=="1"): 
+    while (number1 >= 1):
+        print('\033[0;37m',text,end = " ")
+        f.write(text+" ")
+        number1-=1
+elif (mode1=="2"):
+    while (number1 >= 1):
+        print(text)
+        f.write(text+"\n")
+        number1-=1
+else:
+    print("\033[0;31mErorr mode")
