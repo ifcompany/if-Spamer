@@ -1,8 +1,8 @@
 <h1>if Spamer</h1>
 <br />
-<img src="#"/>
+<img src="logo.git"/>
 <br />
-<h2><a href="#">link if</a></h2>
+<h2><a href="https://ifcomapny.ir">link if</a></h2>
 <br />
     Spam text in Python
 <br />
