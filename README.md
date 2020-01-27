@@ -1,6 +1,6 @@
 <h1>if Spamer</h1>
 <br />
-<img src="logo.git"/>
+<img src="logo.gif"/>
 <br />
 <h2><a href="https://ifcomapny.ir">link if</a></h2>
 <br />
