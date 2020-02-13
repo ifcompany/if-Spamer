@@ -19,7 +19,7 @@ $ cd if-Spamer <br />
 $ python3 if-Spamer.py</code>
 </pre>
 <br />
-<a href="https://t.me/Thelinkif">Telegram</a>
-<br />
-<a href="https://instagram.com/ifcompany.ir">Instagram</a>
-<br />
+<a href="https://t.me/Thelinkif">&nbsp;Telegram&nbsp;</a>
+<a href="https://instagram.com/ifcompany.ir">&nbsp;Instagram&nbsp;</a>
+<a href="https://www.youtube.com/channel/UCjc1xeBMu-mqXPSFSrzLEsg">&nbsp;youtube&nbsp;</a>
+<a href="https://discord.gg/jdurtWw">&nbsp;discord&nbsp;</a>
